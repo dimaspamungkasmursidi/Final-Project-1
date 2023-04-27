@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="website icon" href="image/hacktiv.jpg" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="wrapper">
+      <nav>
+        <div>
+          <a href="#"
+            ><img src="image/hacktiv8.png" alt="logo.png" class="logo-hacktiv"
+          /></a>
+          <a href="#" class="logo">Hacktiv8</a>
+        </div>
+        <input type="checkbox" name="" id="toggle" />
+        <label for="toggle"><i class="material-icons">menu</i></label>
+        <div class="menu">
+          <ul class="ul-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="todo.html">Todos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- CONTENT -->
+    <div id="carouselExampleCaptions" class="carousel-slide carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <!-- CAROUSEL 1 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/07/06/13/21/office-1500461_960_720.jpg"
+            class="bg-carousel d-block w-100"
+            alt="carousel.jpg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="div-img-carousel1">
+              <img
+                src="https://romantic-bassi-f50129.netlify.app/images/banner-left.png"
+                alt="carousel.png"
+                class="image-carousel1"
+              />
+            </div>
+            <div class="desc-carousel1">
+              <h1 class="h1-carousel1">WE BELIEVE</h1>
+              <h1 class="h1-carousel2">IN QUALITY DESIGN</h1>
+              <p class="p-carousel1">Any Creative Project is Unique</p>
+              <p class="p-carousel2">and should be provided with</p>
+              <p class="p-carousel3">the appropriate quality</p>
+              <button
+                class="btn-carousel1"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAROUSEL 2 -->
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2016/07/06/13/21/office-1500461_960_720.jpg" class="bg-carousel d-block w-100" alt="carousel.jpg" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="image-carousel2">
+              <div class="div-image-carousel2">
+                <img
+                  src="https://romantic-bassi-f50129.netlify.app/images/banner-left.png"
+                  alt="carousel.png"
+                  class="image-carousel2"
+                />
+              </div>
+            </div>
+            <div class="desc-carousel2">
+              <h1 class="h1-carousel21">WE BELIEVE</h1>
+              <h1 class="h1-carousel22">IN QUALITY DESIGN</h1>
+              <p class="p-carousel21">Any Creative Project is Unique</p>
+              <p class="p-carousel22">and should be provided with</p>
+              <p class="p-carousel23">the appropriate quality</p>
+              <button
+                class="btn-carousel2"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Order Now
+              </button>
+            </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- MODAL CAROUSEL -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="div-card">
+      <h2 class="h2-card">WE CREATIVE QUALITY DESIGNS.</h2>
+      <h5 class="h5-card">We Specialize in Web Design / Development and Graphic Design</h5>
+      <div class="cards">
+    <!-- Card 1 -->
+        <div class="card">
+          <img class="card__image" src="https://romantic-bassi-f50129.netlify.app/images/pic.jpg" alt="card.jpg">
+          <div class="card__content">
+            <p class="p-card1">
+              REDESIGNING <br> WITH PERSONALITY
+            </p>
+          </div>
+        </div>
+    <!-- Card 2 -->
+        <div class="card">
+          <img class="card__image" src="https://romantic-bassi-f50129.netlify.app/images/icon1.png" alt="card.jpg">
+          <div class="overlay"></div>
+          <div class="card__content">
+            <p class="p-card2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+            </p>
+          </div>
+    <!-- Card 3 -->
+        </div>
+        <div class="card">
+          <img class="card__image" src="https://romantic-bassi-f50129.netlify.app/images/icon2.png" alt="card.jpg">
+          <div class="overlay"></div>
+          <div class="card__content">
+            <p class="p-card2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+            </p>
+          </div>
+    <!-- Card 4 -->
+        </div>
+        <div class="card">
+          <img class="card__image" src="https://romantic-bassi-f50129.netlify.app/images/icon3.png" alt="card.jpg">
+          <div class="overlay"></div>
+          <div class="card__content">
+            <p class="p-card2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- GALLERY -->
+    <div class="div-gallery">
+      <h1 class="h1-gallery"><span class="span-gallery">OUR WORK!</span></h1>
+      <p class="p-gallery">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+      <div class="grid">
+        <div class="item item-1"></div>
+        <div class="item item-2"></div>
+        <div class="item item-3"></div>
+        <div class="item item-4"></div>
+      </div>
+    </div>
+
+
+    <!-- CLIENT -->
+    <div class="div-client">
+      <h1 class="h1-client"><span class="span-client">OUR CLIENT!</span></h1>
+    </div>
+    <div class="logos">
+      <div class="logos-slide">
+        <img src="./image/3m.svg" alt="client.svg"/>
+        <img src="./image/barstool-store.svg" alt="client.svg"/>
+        <img src="./image/budweiser.svg" alt="client.svg"/>
+        <img src="./image/buzzfeed.svg" alt="client.svg"/>
+        <img src="./image/forbes.svg" alt="client.svg"/>
+        <img src="./image/macys.svg" alt="client.svg"/>
+        <img src="./image/menshealth.svg" alt="client.svg"/>
+        <img src="./image/mrbeast.svg" alt="client.svg"/>
+      </div>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="div-footer">
+        <div class="row-footer">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul class="ul-footer">
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul class="ul-footer">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <ul class="ul-footer">
+              <li><a href="#">Jl. Arteri Pd. Indah No.7, RT.5/RW.9, 
+                Kota Jakarta Selatan, 
+                Daerah Khusus Ibukota Jakarta 12240</a></li>
+              <li><a href="#">Phone: +1 800 258 2689</a></li>
+              <li><a href="#">Email: info(at)skokov.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <button
+                class="btn-footer"
+                type="button"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      let copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

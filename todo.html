@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Todo List</title>
+	<link rel="stylesheet" href="css/todo.css" />
+</head>
+<body>
+	<main class="app">
+		<!-- GREETING -->
+		<div>
+			<a href="home.html">
+			<button class="btnback">Back</button>
+			</a>
+		</div>
+		<section class="greeting">
+			<h2 class="title">
+				What's up, <input type="text" id="name" placeholder=" Your Name here" />
+			</h2>
+		</section>
+		
+		<!-- TODO -->
+		<section class="create-todo">
+			<h3>TODO APP</h3>
+			<form id="new-todo-form">
+				<h4>What's on your todo?</h4>
+				<input 
+					type="text" 
+					placeholder="Add a Todo..."
+					name="content"
+					id="content" />
+				
+				<h4>Pick a category</h4>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="business" /> 
+						<span class="bubble business"></span>
+						<div>Business</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+				</div>
+
+				<input type="submit" value="Add todo" />
+			</form>
+		</section>
+
+		<!-- TODO LIST -->
+		<section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+		</section>
+
+	</main>
+
+	
+	<script src="todo.js"></script>
+</body>
+</html>
